@@ -1,0 +1,4 @@
+node {
+  stage 'Run JMeter Test'
+  sh 'C:/SUGANTHI/Performance Testing/apache-jmeter-4.0/apache-jmeter-4.0/bin/jmeter.sh -n -t C:/Users/suganthi/Downloads/GIT.postman_collection.jmx -l GITtest.jtl'
+}
